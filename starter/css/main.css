@@ -424,9 +424,65 @@ Hero
 
 /*
 =============== 
+Recipes
+===============
+*/
+.recipes-container{
+  display: grid;
+  gap: 2rem 1rem;
+  border: 2px solid red;
+}
+.tags-container{
+  border: 2px solid blue;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+.recipes-list{
+  display: grid;
+  gap: 2rem 1rem;
+  padding-bottom: 3rem;
+}
+.tags-container h4{
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.tags-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.tags-list a{
+  text-transform: capitalize;
+  display: block;
+  color: var(--grey-500);
+  transition: var(--transition);
+}
+.tags-list a:hover{
+  color: var(--primary-500);
+}
+
+
+
+
+
+
+/*
+=============== 
 
 ===============
 */
+
+
+
+
+
+/*
+=============== 
+
+===============
+*/
+
 
 
 
