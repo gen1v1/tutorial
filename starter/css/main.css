@@ -527,11 +527,13 @@ Error
 
 /*
 =============== 
-
+About
 ===============
 */
 
-
+.featured-title {
+  text-align: center;
+}
 
 
 
